@@ -11,8 +11,8 @@
 
 <style>
   footer {
-    position: relative;
-    bottom: -40px;
+    position: fixed;
+    bottom: 0px;
     display: flex;
     justify-content: center;
     width: 96%;

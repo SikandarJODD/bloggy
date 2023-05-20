@@ -1,13 +1,19 @@
+<script>
+  import { blogCardData } from "../../store";
+</script>
+
 <div class="parent">
   <div class="div1">
-    <h3>poppy</h3>
-    <h3>poppy</h3>
-    <h3>poppy</h3>
-    <h3>poppy</h3>
-    <h3>poppy</h3>
+    {#each $blogCardData as blogCard}
+      <a href={blogCard.blogLink}>
+        <h4>
+          {blogCard.title}
+        </h4>
+      </a>
+    {/each}
   </div>
   <div class="div2">
-    <slot />
+      <slot />
   </div>
 </div>
 
@@ -23,12 +29,12 @@
   .div1 {
     grid-area: 1 / 1 / 6 / 2;
     position: fixed;
-    top: 7rem;
+    top: 9rem;
     width: 300px;
-    padding: 10px 50px;
+    padding: 10px 20px;
     border: 2px solid rgba(127, 254, 171, 0.811);
     border-radius: 10px;
-    background: #011b050b;
+    background: #02570f0b;
   }
   .div2 {
     grid-area: 1 / 2 / 6 / 6;
