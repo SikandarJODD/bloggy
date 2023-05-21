@@ -1,6 +1,7 @@
 import { writable } from 'svelte/store';
 
 import r1 from "$lib/Concepts/r1.jpg";
+import r2 from "$lib/Concepts/r2.jpeg";
 
 export const blogCardData = writable([
     {
@@ -17,7 +18,7 @@ export const blogCardData = writable([
     },
     {
         title: "Reactive Declarations",
-        imgSrc: r1,
+        imgSrc: r2,
         blogLink: "/blogs/reactive-declarations",
     },
 
