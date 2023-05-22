@@ -15,7 +15,7 @@
 </script>
 
 <nav>
-  <li><h3><a href="/">Bloggy</a></h3></li>
+  <li><h3><a href="/">Tofu</a></h3></li>
   <ul>
     {#each navs as nav}
       <li>
