@@ -1,0 +1,1 @@
+<h1>Hello Welcome to Svelte Store</h1>
