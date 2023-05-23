@@ -2,7 +2,7 @@ import { writable } from 'svelte/store';
 
 import r1 from "$lib/Concepts/r1.jpg";
 import r2 from "$lib/Concepts/r2.jpeg";
-
+export const count = writable(0);
 export const blogCardData = writable([
     {
         title: "Svelte Store",

@@ -18,7 +18,7 @@
     transition: all 0.3s ease-in-out;
   }
   .small_box:hover {
-    background-color: #094b4542;
+    background: linear-gradient(to top, #00212c, rgba(100, 159, 253, 0.039));
     transition: all 0.3s ease-in-out;
   }
 </style>

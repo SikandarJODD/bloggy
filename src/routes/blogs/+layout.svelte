@@ -39,4 +39,6 @@
   .div2 {
     grid-area: 1 / 2 / 6 / 6;
   }
+  
+  
 </style>

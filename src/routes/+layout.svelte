@@ -7,7 +7,7 @@
   <Navbar />
 </header>
 <slot />
-<Footer />
+<!-- <Footer /> -->
 
 <style>
   :global(body) {
